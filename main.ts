@@ -19,55 +19,48 @@ basic.forever(function () {
             . . . . .
             . . . . .
             `)
+    } else if (number == 2) {
+        basic.showLeds(`
+            . . . . .
+            . . . # .
+            . . . . .
+            . # . . .
+            . . . . .
+            `)
+    } else if (number == 3) {
+        basic.showLeds(`
+            . . . . .
+            . . . # .
+            . . # . .
+            . # . . .
+            . . . . .
+            `)
+    } else if (number == 4) {
+        basic.showLeds(`
+            . . . . .
+            . # . # .
+            . . . . .
+            . # . # .
+            . . . . .
+            `)
+    } else if (number == 5) {
+        basic.showLeds(`
+            . . . . .
+            . # . # .
+            . . # . .
+            . # . # .
+            . . . . .
+            `)
+    } else if (number == 6) {
+        basic.showLeds(`
+            . . . . .
+            . # . # .
+            . # . # .
+            . # . # .
+            . . . . .
+            `)
     } else {
-        if (number == 2) {
-            basic.showLeds(`
-                . . . . .
-                . . . # .
-                . . . . .
-                . # . . .
-                . . . . .
-                `)
-        } else {
-            if (number == 3) {
-                basic.showLeds(`
-                    . . . . .
-                    . . . # .
-                    . . # . .
-                    . # . . .
-                    . . . . .
-                    `)
-            } else {
-                if (number == 4) {
-                    basic.showLeds(`
-                        . . . . .
-                        . # . # .
-                        . . . . .
-                        . # . # .
-                        . . . . .
-                        `)
-                } else {
-                    if (number == 5) {
-                        basic.showLeds(`
-                            . . . . .
-                            . # . # .
-                            . . # . .
-                            . # . # .
-                            . . . . .
-                            `)
-                    } else {
-                        if (number == 6) {
-                            basic.showLeds(`
-                                . . . . .
-                                . # . # .
-                                . # . # .
-                                . # . # .
-                                . . . . .
-                                `)
-                        }
-                    }
-                }
-            }
-        }
+    	
     }
+    basic.pause(100)
 })
