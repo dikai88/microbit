@@ -59,8 +59,6 @@ basic.forever(function () {
             . # . # .
             . . . . .
             `)
-    } else {
-    	
     }
     basic.pause(100)
 })
